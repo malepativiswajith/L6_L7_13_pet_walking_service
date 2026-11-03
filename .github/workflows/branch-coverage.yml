@@ -35,4 +35,4 @@ jobs:
 
       - name: Display branch coverage report
         run: |
-          coverage report --branch -m
+          coverage report -m --fail-under=90
