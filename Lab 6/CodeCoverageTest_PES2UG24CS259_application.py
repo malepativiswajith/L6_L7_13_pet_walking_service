@@ -157,4 +157,5 @@ def test_two_consecutive_weak_gps_signals_trigger_alert():
 
 def test_empty_log_for_a_collar_returns_online():
     assert inspect_gps_collars([[]]) == "ONLINE"
+    
 
